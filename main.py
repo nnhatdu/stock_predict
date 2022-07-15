@@ -60,7 +60,7 @@ class Config:
 
     batch_size = 64
     learning_rate = 0.001
-    epoch = 20                  # 整个训练集被训练多少遍，不考虑早停的前提下
+    epoch = 100                 # 整个训练集被训练多少遍，不考虑早停的前提下
     patience = 5                # 训练多少epoch，验证集没提升就停掉
     random_seed = 42            # 随机种子，保证可复现
 
